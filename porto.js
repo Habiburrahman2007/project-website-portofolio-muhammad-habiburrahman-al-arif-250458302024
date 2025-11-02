@@ -41,7 +41,21 @@ document.addEventListener('DOMContentLoaded', () => {
             element.textContent += text.charAt(i);
             setTimeout(() => typeText(element, text, i + 1), 70); // Typing speed
         } else {
-            activateGlitch(); // Activate glitch after typing finishes
+            activateGlitch();
+            setTimeout(() => eraseText(element, text), 2000)
+        }
+    };
+
+    const eraseText = (element, text) => {
+        let currentText = element.textContent;
+        if (currentText.length > 0) {
+            // Hapus satu karakter dari belakang
+            element.textContent = currentText.substring(0, currentText.length - 1);
+            // Atur kecepatan hapus
+            setTimeout(() => eraseText(element, text), 50);
+        } else {
+            // Selesai menghapus, jeda 0.5 detik lalu mulai ketik lagi
+            setTimeout(() => typeText(element, text, 0), 500);
         }
     };
 
