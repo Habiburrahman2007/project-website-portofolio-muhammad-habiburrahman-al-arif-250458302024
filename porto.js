@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             activateGlitch();
             setTimeout(() => eraseText(element, text), 2000)
-        }
+        }//ini beda
     };
 
     const eraseText = (element, text) => {
