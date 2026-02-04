@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { useLenis } from '@studio-freight/react-lenis';
+import { useLenis } from 'lenis/react';
 import { motion, MotionConfig } from 'framer-motion';
 import MobileMenu from './MobileMenu';
 

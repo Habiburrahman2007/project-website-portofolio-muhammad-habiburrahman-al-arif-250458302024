@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Instagram, Linkedin, Phone } from 'lucide-react';
-import { useLenis } from '@studio-freight/react-lenis';
+import { useLenis } from 'lenis/react';
 
 interface MobileMenuProps {
   isOpen: boolean;
