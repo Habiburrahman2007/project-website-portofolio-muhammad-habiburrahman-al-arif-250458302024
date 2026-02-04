@@ -4,7 +4,9 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import Link from 'next/link';
 import MagneticButton from './MagneticButton';
-import Scene from './Scene';
+import dynamic from 'next/dynamic';
+
+const Scene = dynamic(() => import('./Scene'), { ssr: false });
 
 const SplitText = ({ text, className }: { text: string; className?: string }) => {
   return (
