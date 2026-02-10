@@ -18,17 +18,16 @@ const services = [
 const techStack = ['Three.js', 'Laravel', 'React', 'Next.js', 'TailwindCSS'];
 
 const certificatesRow1 = [
-  { id: 1, title: 'Three.js Journey', issuer: 'Bruno Simon', image: '/cert1.png', link: '#' },
-  { id: 2, title: 'Advanced React', issuer: 'Frontend Masters', image: '/cert2.png', link: '#' },
-  { id: 3, title: 'Creative Coding', issuer: 'Domestika', image: '/cert3.png', link: '#' },
-  { id: 4, title: 'Fullstack Dev', issuer: 'Udemy', image: '/cert4.png', link: '#' },
+  { id: 1, title: 'Web Development', issuer: 'HTML, CSS, JS', image: '/certificate/HTMLCSSJS.png', link: '#' },
+  { id: 2, title: 'Meta Ads Expert', issuer: 'Meta Certification', image: '/certificate/Serti Meta.jpg', link: '#' },
+  { id: 3, title: 'JavaScript Essentials', issuer: 'Cisco', image: '/certificate/js_cisco.jpg', link: '#' },
+  { id: 4, title: 'Digital Marketing', issuer: 'Professional Skills', image: '/certificate/Serti Digital Marketing.jpg', link: '#' },
 ];
 
 const certificatesRow2 = [
-  { id: 5, title: 'UI/UX Design', issuer: 'Google', image: '/cert3.png', link: '#' },
-  { id: 6, title: 'JavaScript Pro', issuer: 'CodeWithMosh', image: '/cert2.png', link: '#' },
-  { id: 7, title: 'Next.js Expert', issuer: 'Vercel', image: '/cert1.png', link: '#' },
-  { id: 8, title: 'Animation Master', issuer: 'Awwwards', image: '/cert4.png', link: '#' },
+  { id: 5, title: 'Copywriting Master', issuer: 'Professional Skills', image: '/certificate/Serti Copywriting.jpg', link: '#' },
+  { id: 6, title: 'Customer Service', issuer: 'Professional Skills', image: '/certificate/Serti CS.jpg', link: '#' },
+  { id: 7, title: 'Tahsin Al-Fatihah', issuer: 'Islamic Studies', image: '/certificate/al fatihah.jpg', link: '#' },
 ];
 
 export default function About() {
