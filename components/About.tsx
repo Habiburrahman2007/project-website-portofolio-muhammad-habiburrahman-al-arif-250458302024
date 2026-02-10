@@ -163,7 +163,7 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="reveal-text text-sm font-bold tracking-widest uppercase text-gray-500 mb-4">About Me</h2>
             <h3 className="reveal-text text-4xl md:text-5xl font-bold leading-tight">
-              Membantu brand Anda membuat <span className="text-blue-500">website yang scalable</span>, cepat, dan beda dari kompetitor.
+              Membantu UMKM agar memiliki <span className="text-blue-500">website yang scalable</span>, cepat, dan beda dari kompetitor.
             </h3>
             <p className="reveal-text text-gray-400 text-lg leading-relaxed max-w-md">
               Combining creative design with technical excellence. I specialize in building immersive digital experiences that capture attention and drive results.
@@ -261,7 +261,7 @@ export default function About() {
               </div>
 
               {/* Row 2 - Moves Right */}
-              <div ref={row2Ref} className="flex gap-6 w-max ml-[-200px]">
+              <div ref={row2Ref} className="flex gap-6 w-max ml-[-1200px]">
                 {[...certificatesRow2, ...certificatesRow2].map((cert, index) => (
                    <Link 
                      href={cert.link} 

@@ -148,7 +148,7 @@ export default function Contact() {
 
       <footer className="w-full text-center py-6 border-t border-white/5 mt-auto absolute bottom-0">
         <p className="text-xs md:text-sm text-gray-500 tracking-wider">
-          © {new Date().getFullYear()} HABIB. ALL RIGHTS RESERVED.
+          © {new Date().getFullYear()} VIBEDEV. ALL RIGHTS RESERVED.
         </p>
       </footer>
     </section>

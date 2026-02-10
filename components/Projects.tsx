@@ -74,7 +74,7 @@ export default function Projects() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-500 z-10" />
 
               {/* Dynamic Border Glow */}
-              <div className="absolute inset-0 border-2 border-transparent group-hover:border-purple-500/30 rounded-3xl transition-colors duration-500 z-20 pointer-events-none" />
+              <div className="absolute inset-0 border-2 border-transparent group-hover:border-blue-500/80 rounded-3xl transition-colors duration-500 z-20 pointer-events-none" />
 
               {/* Content Container */}
               <div className="absolute inset-0 p-8 flex flex-col justify-end z-20">

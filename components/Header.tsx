@@ -55,7 +55,7 @@ export default function Header() {
         className="text-xl font-bold tracking-tighter uppercase relative group cursor-pointer z-[110]" // Higher Z to stay above menu
         onClick={() => lenis?.scrollTo(0)}
       >
-        HABIB
+        V I B E D E V
         <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-blue-500 transition-all group-hover:w-full" />
       </div>
       
