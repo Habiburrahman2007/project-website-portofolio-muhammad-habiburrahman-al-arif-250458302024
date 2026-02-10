@@ -10,9 +10,9 @@ import Image from 'next/image';
 gsap.registerPlugin(ScrollTrigger);
 
 const services = [
-  { id: 1, name: 'Web Development', desc: 'Building scalable, high-performance websites', image: '/service-web.png', number: '01' },
-  { id: 2, name: 'Meta Ads Advertising', desc: 'Creating engaging ads for Meta', image: '/service-uiux.png', number: '02' },
-  { id: 3, name: 'SEO Optimization', desc: 'Optimizing websites for search engines', image: '/service-inter.png', number: '03' },
+  { id: 1, name: 'Web Development', desc: 'Building scalable, high-performance websites', image: '/certificate/HTMLCSSJS.png', number: '01' },
+  { id: 2, name: 'Meta Ads Advertising', desc: 'Creating engaging ads for Meta', image: '/certificate/Serti Meta.jpg', number: '02' },
+  { id: 3, name: 'SEO Optimization', desc: 'Optimizing websites for search engines', image: '/certificate/Serti Digital Marketing.jpg', number: '03' },
 ];
 
 const techStack = ['Three.js', 'Laravel', 'React', 'Next.js', 'TailwindCSS'];
