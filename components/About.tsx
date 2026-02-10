@@ -163,7 +163,7 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="reveal-text text-sm font-bold tracking-widest uppercase text-gray-500 mb-4">About Me</h2>
             <h3 className="reveal-text text-4xl md:text-5xl font-bold leading-tight">
-              Membantu brand Anda membuat <span className="text-blue-500">website yang cinematic</span>, cepat, dan beda dari kompetitor.
+              Membantu brand Anda membuat <span className="text-blue-500">website yang scalable</span>, cepat, dan beda dari kompetitor.
             </h3>
             <p className="reveal-text text-gray-400 text-lg leading-relaxed max-w-md">
               Combining creative design with technical excellence. I specialize in building immersive digital experiences that capture attention and drive results.
@@ -181,11 +181,11 @@ export default function About() {
             {/* Counter (Optional) */}
             <div className="reveal-text flex gap-12 pt-8">
                 <div>
-                   <span className="block text-4xl font-bold text-white">3+</span>
+                   <span className="block text-4xl font-bold text-white">1+</span>
                    <span className="text-sm text-gray-500 uppercase tracking-widest">Years Exp.</span>
                 </div>
                 <div>
-                   <span className="block text-4xl font-bold text-white">20+</span>
+                   <span className="block text-4xl font-bold text-white">3+</span>
                    <span className="text-sm text-gray-500 uppercase tracking-widest">Projects</span>
                 </div>
             </div>
