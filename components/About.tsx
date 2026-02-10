@@ -10,24 +10,25 @@ import Image from 'next/image';
 gsap.registerPlugin(ScrollTrigger);
 
 const services = [
-  { id: 1, name: 'Web Development', desc: 'Building scalable, high-performance websites', image: '/certificate/HTMLCSSJS.png', number: '01' },
-  { id: 2, name: 'Meta Ads Advertising', desc: 'Creating engaging ads for Meta', image: '/certificate/Serti Meta.jpg', number: '02' },
-  { id: 3, name: 'SEO Optimization', desc: 'Optimizing websites for search engines', image: '/certificate/Serti Digital Marketing.jpg', number: '03' },
+  { id: 1, name: 'Web Development', desc: 'Building scalable, high-performance websites', image: '/service-web.png', number: '01' },
+  { id: 2, name: 'Meta Ads Advertising', desc: 'Creating engaging ads for Meta', image: '/hover/meta.png', number: '02' },
+  { id: 3, name: 'SEO Optimization', desc: 'Optimizing websites for search engines', image: '/hover/seo.png', number: '03' },
 ];
 
-const techStack = ['Three.js', 'Laravel', 'React', 'Next.js', 'TailwindCSS'];
+const techStack = ['Wordpress', 'Laravel', 'React', 'Bootstrap', 'TailwindCSS'];
 
 const certificatesRow1 = [
-  { id: 1, title: 'Web Development', issuer: 'HTML, CSS, JS', image: '/certificate/HTMLCSSJS.png', link: '#' },
-  { id: 2, title: 'Meta Ads Expert', issuer: 'Meta Certification', image: '/certificate/Serti Meta.jpg', link: '#' },
-  { id: 3, title: 'JavaScript Essentials', issuer: 'Cisco', image: '/certificate/js_cisco.jpg', link: '#' },
-  { id: 4, title: 'Digital Marketing', issuer: 'Professional Skills', image: '/certificate/Serti Digital Marketing.jpg', link: '#' },
+  { id: 1, title: 'Basic HTML, CSS, JS', issuer: 'Skillpedia', image: '/certificate/HTMLCSSJS.png', link: '#' },
+  { id: 2, title: 'Meta Ads Fundamentals', issuer: 'Skillpedia', image: '/certificate/Serti Meta.jpg', link: '#' },
+  { id: 3, title: 'JavaScript Essentials', issuer: 'Cisco Network Academy', image: '/certificate/js_cisco.jpg', link: '#' },
+  { id: 4, title: 'Digital Marketing', issuer: 'Skillpedia', image: '/certificate/Serti Digital Marketing.jpg', link: '#' },
 ];
 
 const certificatesRow2 = [
-  { id: 5, title: 'Copywriting Master', issuer: 'Professional Skills', image: '/certificate/Serti Copywriting.jpg', link: '#' },
-  { id: 6, title: 'Customer Service', issuer: 'Professional Skills', image: '/certificate/Serti CS.jpg', link: '#' },
-  { id: 7, title: 'Tahsin Al-Fatihah', issuer: 'Islamic Studies', image: '/certificate/al fatihah.jpg', link: '#' },
+  { id: 5, title: 'Basic Copywriting', issuer: 'Skillpedia', image: '/certificate/Serti Copywriting.jpg', link: '#' },
+  { id: 6, title: 'Whatsapp Marketing', issuer: 'Skillpedia', image: '/certificate/Serti CS.jpg', link: '#' },
+  { id: 7, title: 'Meta Ads Intern', issuer: 'Al Fatihah Foundation', image: '/certificate/al fatihah.jpg', link: '#' },
+  { id: 8, title: 'Basic AI', issuer: 'Dicoding', image: '/certificate/ai.jpg', link: '#' },
 ];
 
 export default function About() {
